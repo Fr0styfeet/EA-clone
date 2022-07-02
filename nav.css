@@ -50,15 +50,4 @@ font-size: 20px;
     position: absolute;
     top:60px
 } */
-#centerbody{
-    background-image: url(./center\ bg.png);
-    background-size: 100vw;
-    height: 100vh;
-}
-#centerbodytxt{
-    float: right;
-    position: relative;
-    top: 90px;
-    right: 80px;
-    font-size: 1.2rem;
-}
+
