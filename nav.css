@@ -19,3 +19,46 @@
     justify-content:right;
     color: white;
 }
+#nav2 ul li{
+    /* display: inline; */
+    padding: 12px 40px;
+    list-style: none;
+}
+
+.icons2{
+    display: flex;
+    justify-content: left;
+    
+    
+}
+#nav2{
+}
+#nav2 ul li a{
+text-decoration: none;
+color: black;
+display: block;
+padding: 0 15px;
+line-height: 30px;
+font-size: 20px;
+}
+/* #nav2 ul li a:hover .sub menu{
+    display: block;
+    position: absolute;
+    background-color: pink ;
+} */
+/* #nav2 ul ul{
+    position: absolute;
+    top:60px
+} */
+#centerbody{
+    background-image: url(./center\ bg.png);
+    background-size: 100vw;
+    height: 100vh;
+}
+#centerbodytxt{
+    float: right;
+    position: relative;
+    top: 90px;
+    right: 80px;
+    font-size: 1.2rem;
+}
