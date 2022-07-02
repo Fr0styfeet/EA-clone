@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav1{
+    background-color: black;
+    height: 3em;
+    
+}
+#nav1 ul li{
+    display: inline;
+    padding: 12px 23px;
+    
+}
+
+.icons{
+    display: flex;
+    justify-content:right;
+    color: white;
+}
