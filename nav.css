@@ -21,13 +21,14 @@
 }
 #nav2 ul li{
     /* display: inline; */
-    padding: 12px 40px;
+    padding: 12px 10px;
     list-style: none;
 }
 
 .icons2{
     display: flex;
-    justify-content: left;
+    /* justify-content: left; */
+    background-color: white;
     
     
 }
@@ -40,14 +41,32 @@ display: block;
 padding: 0 15px;
 line-height: 30px;
 font-size: 20px;
+
+transition: 1s;
 }
-/* #nav2 ul li a:hover .sub menu{
+#nav2 ul li:hover > ul{
     display: block;
+    /* position: absolute; */
+    background-color: white;
+    color: red;
+    /* font-color:red */
+    opacity: .9;
+    visibility: visible;
+    transition: .1s linear;
+    
+}
+#nav2 ul ul{
     position: absolute;
-    background-color: pink ;
-} */
-/* #nav2 ul ul{
-    position: absolute;
-    top:60px
-} */
+    top:100px;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+
+}
+#nav2 ul ul li{
+    width: 150px;
+    display: list-item;
+    position: relative
+    border: 1px solid red;
+}
 
