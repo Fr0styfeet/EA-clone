@@ -73,9 +73,25 @@ h1{
 
 #scrollbar ul li{
     display: inline;
+    padding: 12px 20px;
+    font-size: 20px;
 
+
+}
+#scrollbar{
+    
 }
 #scrollbar ul{
     display: flex;
     justify-content: center;
+    position: absolute;
+    left: 100px;
+    border-bottom: 2px solid rgb(222, 222, 222);
+}
+#scrollbar ul li:hover{
+    background-color: rgb(222, 222, 222);
+}
+#scrollbar ul li:first-child{
+    background-color: rgb(222, 222, 222);
+    border-bottom: 2px solid red;
 }
