@@ -25,19 +25,57 @@
 
 }
 .featuredgames{
-   background-color: red;
+   /* background-color: red; */
    position: relative;
    top:40px;
-   width: inherit;
+   /* width: inherit; */
    display: grid;
-   grid-template-columns: repeat(3,2fr);
+   /* grid-template-columns: repeat(3,32rem); */
    
-   grid-template-rows: repeat(3,1fr);
-   row-gap: 20px;
+   /* grid-template-rows: repeat(3,1fr); */
+   grid-template-columns: repeat(3,1fr);
+   row-gap: 0px;
    column-gap: 0px;
+   gap: 1.5rem;
+   padding-left: 100px;
+   padding-right: 100px;
 }
 .featuredgames img{
-    height: 250px;
-    width: 250px;
+    height: 450px;
+    width: 450px;
+    border: 0.01px solid rgb(208, 208, 208);
   
+}
+h1{
+    font-size: 2.5em;
+}
+#darkbutton{
+    background-color: black;
+    color: white;
+    display: inline;
+    padding:  15px 25px;
+    font-size: x-large;
+    position: relative;
+    top: 30px;
+    left: 120px;
+    border-radius: 2px;
+}
+/* .button{
+    position: relative;
+    top: 100px;
+    left: 100px;
+} */
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+
+#scrollbar ul li{
+    display: inline;
+
+}
+#scrollbar ul{
+    display: flex;
+    justify-content: center;
 }
