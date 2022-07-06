@@ -130,9 +130,34 @@ h1{
     background-color:white ;
 }
 #lowerbody{
-    background-image: url(./bgimage.jpg) ;
+    background-image: url(./bgimage.jpg);
+    background-size: 100vw;
     background-repeat: no-repeat;
     height: 1000px;
+    position: relative;
+    top: 30px;
+}
+#lowerbodytxt{
+    color: white;
+    position: relative;
+    top: 180px;
+    left: 120px;
+    font-size: 1.5rem;
+}
+#lowerbody img{
+    width: 280px;
+
+}
+#button3{
+    color: white;
+    display: inline;
+    border: 2px solid white;
+    padding:  15px 30px;
+    font-size: x-large;
+    position: relative;
+    top: 250px;
+    left: 120px;
+    border-radius: 4px;
 }
 
 
