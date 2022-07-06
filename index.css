@@ -75,12 +75,11 @@ h1{
     display: inline;
     padding: 12px 20px;
     font-size: 20px;
-
-
-}
-#scrollbar{
+    border-left: 0.1px solid rgb(222, 222, 222);
     
+
 }
+
 #scrollbar ul{
     display: flex;
     justify-content: center;
@@ -95,3 +94,48 @@ h1{
     background-color: rgb(222, 222, 222);
     border-bottom: 2px solid red;
 }
+.articles{
+    position: relative;
+    top: 100px;
+    right: 5px;
+    display: grid;
+    gap: 1em;
+    grid-template-columns:repeat(3,1fr);
+    padding-left: 100px;
+    padding-right: 500px;
+    
+}
+.articles img{
+    width: 470px;
+}
+.red{
+    color: #ff4747;
+}
+.newstxt{
+    position: relative;
+    
+    font-size: 1.5em;
+    /* border: .1px solid grey; */
+    padding: 30px;
+    padding-top: 10px;
+    
+
+}
+.articles > div{
+    /* border: .1px solid grey; */
+    box-shadow: 1px 1px 16px #8888;
+    line-height: 35px;
+}
+.articles > div:hover  {
+    background-color:white ;
+}
+#lowerbody{
+    background-image: url(./bgimage.jpg) ;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+
+
+
+
