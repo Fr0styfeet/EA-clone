@@ -161,7 +161,7 @@ h1{
 }
 #plate2{
     position: relative;
-
+    top: -70px;
     background-color: #78c5f2;
     padding: 50px;
     padding-left: 120px;
@@ -183,7 +183,7 @@ h1{
 
 #foot1 nav ul{
     margin-left: 90px;
-    padding: 20px 2px;
+    padding: 30px 2px;
     padding-bottom: 50px;
 
 
@@ -195,6 +195,9 @@ h1{
 }
 #foot1{
     background-color: #e7e5e5;
+    position: relative;
+    top: -70px;
+
     
 }
 #links ul li{
@@ -205,7 +208,7 @@ h1{
 #links{
     position: relative;
     left: 70em;
-    top: -125px;
+    top: -195px;
     line-height: 30px;
     font-size: 1.2em;
 }
@@ -223,7 +226,7 @@ h1{
     display: inline;
     position: relative
     ;
-    top: -40px;
+    top: -110px;
     left: 150px;
     padding-left: 50px;
     font-size: 1.2em;
