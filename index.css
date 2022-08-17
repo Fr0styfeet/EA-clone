@@ -1,6 +1,6 @@
 
 #centerbody{
-    background-image: url(./center\ bg.png);
+    background-image: url(Images/center\ bg.png);
     background-size: 100vw;
     height: 87vh;
     width:inherit;
@@ -24,6 +24,7 @@
     width:inherit;
 
 }
+
 .featuredgames{
    /* background-color: red; */
    position: relative;
@@ -40,12 +41,17 @@
    padding-left: 100px;
    padding-right: 100px;
 }
+
 .featuredgames img{
     height: 450px;
     width: 450px;
     border: 0.01px solid rgb(208, 208, 208);
   
 }
+/* #F1{background-image: url("https://media.contentapi.ea.com/content/dam/gin/images/2022/07/eas-fifa22-gen5-ue-keyart-horz-f23logo-1x1.jpg.adapt.crop1x1.767p.jpg" );
+
+} */
+
 h1{
     font-size: 2.5em;
 }
@@ -60,11 +66,7 @@ h1{
     left: 120px;
     border-radius: 2px;
 }
-/* .button{
-    position: relative;
-    top: 100px;
-    left: 100px;
-} */
+
 .center{
     display: flex;
     justify-content: center;
@@ -123,14 +125,14 @@ h1{
 }
 .articles > div{
     /* border: .1px solid grey; */
-    box-shadow: 1px 1px 16px #8888;
+    box-shadow: 5px 5px 26px #8888;
     line-height: 35px;
 }
 .articles > div:hover  {
     background-color:white ;
 }
 #lowerbody{
-    background-image: url(./bgimage.jpg);
+    background-image: url(Images/bgimage.jpg);
     background-size: 100vw;
     background-repeat: no-repeat;
     height: 100vh;
@@ -207,14 +209,10 @@ h1{
 }
 #links{
     position: relative;
-    left: 70em;
+    left: 60em;
     top: -195px;
     line-height: 30px;
-    font-size: 1.2em;
-}
-#links ul li:hover{
-    
-
+    font-size: 1.4em;
 }
 #foot2 img{
     height: 50px;
@@ -231,6 +229,33 @@ h1{
     padding-left: 50px;
     font-size: 1.2em;
 }
+#foot2 nav ul li{
+    position: relative;
+    left: 45px;
+}
+#button{
+    /* position: ; */
+    display: inline;
+    /* justify-content: center; */
+    /* display: inline; */
+
+    border: 2px solid black;
+    padding:  15px 9px;
+
+    
+}
+form{
+    position: relative;
+    left: 55em;
+    top: -6em;
+    font-size: 1.5em;
+}
+.agreements{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
 
 
 
