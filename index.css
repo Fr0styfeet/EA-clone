@@ -2,21 +2,24 @@
 #centerbody{
     background-image: url(Images/center\ bg.png);
     background-size: 100vw;
+    background-repeat: no-repeat;
     height: 87vh;
     width:inherit;
 }
+
 #centerbodytxt{
     float: right;
     position: relative;
-    top: 90px;
-    right: 80px;
-    font-size: 1.2rem;
+    top: 4em;
+    right: 4em;
+    font-size: 1.4rem;
     
 }
+
 #plate{
     display: flex;
     justify-content: space-around;
-    padding: 40px 10px;
+    padding: 35px 10px;
     background: linear-gradient(to right,rgb(255, 71, 71),orange);
     height: max-content;
     font-size: 2em;
@@ -26,10 +29,8 @@
 }
 
 .featuredgames{
-   /* background-color: red; */
    position: relative;
    top:40px;
-   /* width: inherit; */
    display: grid;
    /* grid-template-columns: repeat(3,32rem); */
    
@@ -43,29 +44,35 @@
 }
 
 .featuredgames img{
-    height: 450px;
-    width: 450px;
-    border: 0.01px solid rgb(208, 208, 208);
+    /* height: 20em;
+    width: 20em; */
+    /* border: 0.01px solid rgb(208, 208, 208); */
   
 }
-/* #F1{background-image: url("https://media.contentapi.ea.com/content/dam/gin/images/2022/07/eas-fifa22-gen5-ue-keyart-horz-f23logo-1x1.jpg.adapt.crop1x1.767p.jpg" );
 
-} */
+#F1{
+    background-image: url("https://media.contentapi.ea.com/content/dam/gin/images/2022/07/eas-fifa22-gen5-ue-keyart-horz-f23logo-1x1.jpg.adapt.crop1x1.767p.jpg" );
+    background-repeat: no-repeat;
+
+
+}
 
 h1{
     font-size: 2.5em;
 }
+
 #darkbutton{
     background-color: black;
     color: white;
     display: inline;
-    padding:  15px 25px;
+    padding:  20px 30px;
     font-size: x-large;
     position: relative;
-    top: 30px;
-    left: 120px;
+    top: 2em;
+    left: 6em;
     border-radius: 3px;
 }
+
 #darkbutton:hover{
     padding:  18px 28px;
     border-radius: 2px;
@@ -73,6 +80,7 @@ h1{
 
 
 }
+
 .center{
     display: flex;
     justify-content: center;
@@ -82,7 +90,7 @@ h1{
 #scrollbar ul li{
     display: inline;
     padding: 12px 20px;
-    font-size: 20px;
+    font-size: 25px;
     border-left: 0.1px solid rgb(222, 222, 222);
     
 
@@ -92,22 +100,25 @@ h1{
     display: flex;
     justify-content: center;
     position: absolute;
-    left: 100px;
+    left: 6em;
     border-bottom: 2px solid rgb(222, 222, 222);
     cursor: pointer;
 
 }
+
 #scrollbar ul li:hover{
     background-color: rgb(222, 222, 222);
 }
+
 #scrollbar ul li:first-child{
     background-color: rgb(222, 222, 222);
     border-bottom: 2px solid red;
 }
+
 .articles{
     position: relative;
-    top: 100px;
-    right: 5px;
+    top: 6.5em;
+    right: .4rem;
     display: grid;
     gap: 1em;
     grid-template-columns:repeat(3,1fr);
@@ -115,9 +126,11 @@ h1{
     padding-right: 500px;
     
 }
+
 .articles img{
-    width: 470px;
+    width: 30em;
 }
+
 .articles div{
     transition-property:  top ;
     transition-delay: 0ms;
@@ -125,50 +138,55 @@ h1{
     transition-duration: 7s;
     cursor: pointer;
 }
+
 .articles > div:hover{
     position: relative;
     top: -10px;
-    box-shadow: 10px 30px 25px rgba(6, 6, 6, 0.227);
+    box-shadow: 10px 30px 20px rgba(6, 6, 6, 0.227);
 
 }
+
 .red{
     color: #ff4747;
 }
+
 .newstxt{
     position: relative;
-    
     font-size: 1.5em;
-    /* border: .1px solid grey; */
     padding: 30px;
     padding-top: 10px;
-    
-
 }
+
 .articles > div{
     /* border: .1px solid grey; */
     box-shadow: 5px 5px 26px #8888;
     line-height: 35px;
 }
+
 .articles > div:hover  {
     background-color:white ;
 }
+
 #lowerbody{
     background-image: url(Images/bgimage.jpg);
     background-size: 100vw;
     background-repeat: no-repeat;
     height: 100vh;
     position: relative;
-    top: 30px;
+    top: 3em;
 }
+
 #lowerbodytxt{
     color: white;
     position: relative;
-    top: 180px;
-    left: 120px;
-    font-size: 1.5rem;
+    top: 5.5em;
+    left: 5em;
+    font-size: 1.6rem;
+    line-height: 40px;
 }
+
 #lowerbody img{
-    width: 280px;
+    width: 12em;
 
 }
 #button3{
@@ -179,8 +197,8 @@ h1{
     box-sizing: border-box;
     font-size: x-large;
     position: relative;
-    top: 250px;
-    left: 120px;
+    top: 8em;
+    left: 5.3em;
     border-radius: 4px;
     cursor: pointer;
 
@@ -194,7 +212,7 @@ h1{
 }
 #plate2{
     position: relative;
-    top: -70px;
+    top: -2.5em;
     background-color: #78c5f2;
     padding: 50px;
     padding-left: 120px;
@@ -228,53 +246,55 @@ h1{
     color: red;
     
 }
+
 #foot1{
     background-color: #e7e5e5;
     position: relative;
-    top: -70px;
+    top: -4em;
 
     
 }
+
 #links ul li{
     display: inline;
     padding: 10px;
 
 }
+
 #links{
     position: relative;
     left: 60em;
-    top: -195px;
-    line-height: 30px;
+    top: -8.5em;
+    line-height: 45px;
     font-size: 1.4em;
 }
+
 #foot2 img{
-    height: 50px;
+    height: 4em;
     position: relative;
-    top: 10px;
+    top: 1em;
 
 }
+
 #foot2 ul li{
     display: inline;
     position: relative
     ;
-    top: -110px;
-    left: 150px;
-    padding-left: 50px;
+    top: -8em;
+    left: 10em;
+    padding-left: 3em;
     font-size: 1.2em;
 }
+
 #foot2 nav ul li{
     position: relative;
-    left: 45px;
+    left: 3em;
 }
+
 #button{
     position: relative;
     left: 47em;
     display: inline;
-    
-
-    /* justify-content: center; */
-    /* display: inline; */
-
     border: 2px solid black;
     padding:  15px 9px;
     border-radius: 3px;
@@ -282,36 +302,47 @@ h1{
 
     
 }
+
 #button:hover{
     transition: border .1s ease-in;
     border: 2px solid black;
     padding:  17px 13px;
 }
+
 #button2{
     border: 2px solid black;
     padding:  15px 9px;
     border-radius: 3px;
     cursor: pointer;
 }
+
 #button2:hover{
     transition: border .1s ease-in;
     border: 2px solid black;
     padding:  17px 13px;
 }
+
 form{
     position: relative;
-    left: 50em;
-    top: -5.5em;
+    left: 52em;
+    top: -13em;
     font-size: 1.7em;
     
 }
-{
-}
-/* .agreements{
+
+#agreements{
     position: relative;
-    left: 10px;
-    top: 10px;
-} */
+    top: -8em;
+    position: relative;
+    left: 10.5em;
+    font-size: 1.2em;
+
+}
+#agreements ul li{
+    display: inline;
+    padding-left: 3em;
+
+}
 
 
 
