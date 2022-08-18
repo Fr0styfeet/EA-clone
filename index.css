@@ -126,16 +126,17 @@ h1 {
     background-color: black;
     color: white;
     display: inline;
-    padding: 20px 30px;
+    padding: 18px 28px;
     font-size: x-large;
     position: relative;
     top: 2em;
     left: 6em;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 #darkbutton:hover {
-    padding: 18px 28px;
+    padding: 20px 30px;
     border-radius: 2px;
     border-radius: 3px;
 
