@@ -234,8 +234,11 @@ h1{
     left: 45px;
 }
 #button{
-    /* position: ; */
+    position: relative;
+    left: 47em;
     display: inline;
+    
+
     /* justify-content: center; */
     /* display: inline; */
 
@@ -244,6 +247,7 @@ h1{
 
     
 }
+
 form{
     position: relative;
     left: 55em;
