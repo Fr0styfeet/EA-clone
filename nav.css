@@ -1,84 +1,82 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
     color: inherit;
 }
 
-#nav1{
+#nav1 {
     background-color: black;
     height: 3em;
-    
+
 }
 
-#nav1 ul li{
+#nav1 ul li {
     display: inline;
     padding: 12px 23px;
-    
+
 }
 
-.icons{
+.icons {
     display: flex;
-    justify-content:right;
+    justify-content: right;
     color: white;
 }
 
-#nav2 ul li{
-    /* display: inline; */
+#nav2 ul li {
     padding: 12px 20px;
     list-style: none;
 }
 
-.icons2{
+.icons2 {
     display: flex;
     background-color: white;
 }
 
-#nav2 ul li a{
-text-decoration: none;
-color: black;
-display: block;
-padding: 0 15px;
-line-height: 30px;
-font-size: 20px;
-width: max-content;
-transition: .1s;
+#nav2 ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 0 15px;
+    line-height: 30px;
+    font-size: 20px;
+    width: max-content;
+    transition: .2s;
 }
 
-#nav2 ul li:hover > ul{
+#nav2 ul li:hover>ul {
     display: block;
     background-color: white;
-    color: red;
+    /* color: red; */
     opacity: .9;
     visibility: visible;
-    transition: .1s linear;
-    
+    transition: .2s linear;
+
 }
 
-#nav2 li:hover{
+#nav2 ul li a:hover {
     color: red;
-    
+
 }
 
-#nav2 ul ul{
+#nav2 ul ul {
     position: absolute;
-    top:110px;
+    top: 110px;
     background-color: white;
     visibility: hidden;
     opacity: 0;
     border-radius: 4px;
-    
+
 
 }
 
-#nav2 ul ul li{
+#nav2 ul ul li {
     width: 190px;
     display: list-item;
     position: relative;
-    
+
 }
 
-nav ul li img{
+nav ul li img {
     height: 1.28em;
 }
-
