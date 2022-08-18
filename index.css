@@ -32,9 +32,6 @@
    position: relative;
    top:40px;
    display: grid;
-   /* grid-template-columns: repeat(3,32rem); */
-   
-   /* grid-template-rows: repeat(3,1fr); */
    grid-template-columns: repeat(3,1fr);
    row-gap: 0px;
    column-gap: 0px;
