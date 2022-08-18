@@ -64,9 +64,15 @@ h1{
     position: relative;
     top: 30px;
     left: 120px;
-    border-radius: 2px;
+    border-radius: 3px;
 }
+#darkbutton:hover{
+    padding:  18px 28px;
+    border-radius: 2px;
+    border-radius: 3px;
 
+
+}
 .center{
     display: flex;
     justify-content: center;
@@ -88,6 +94,8 @@ h1{
     position: absolute;
     left: 100px;
     border-bottom: 2px solid rgb(222, 222, 222);
+    cursor: pointer;
+
 }
 #scrollbar ul li:hover{
     background-color: rgb(222, 222, 222);
@@ -109,6 +117,19 @@ h1{
 }
 .articles img{
     width: 470px;
+}
+.articles div{
+    transition-property:  top ;
+    transition-delay: 0ms;
+    transition-timing-function: ease;
+    transition-duration: 7s;
+    cursor: pointer;
+}
+.articles > div:hover{
+    position: relative;
+    top: -10px;
+    box-shadow: 10px 30px 25px rgba(6, 6, 6, 0.227);
+
 }
 .red{
     color: #ff4747;
@@ -155,11 +176,21 @@ h1{
     display: inline;
     border: 2px solid white;
     padding:  15px 30px;
+    box-sizing: border-box;
     font-size: x-large;
     position: relative;
     top: 250px;
     left: 120px;
     border-radius: 4px;
+    cursor: pointer;
+
+}
+#button3:hover{
+    transition: border .001s ease-in;
+    border: 2px solid white;
+    padding:19px 34px ;
+    
+    
 }
 #plate2{
     position: relative;
@@ -180,6 +211,8 @@ h1{
     font-size: 1.2em;
     margin-top: 10px;
     line-height: 40px;
+    cursor: pointer;
+
     
 }
 
@@ -244,21 +277,41 @@ h1{
 
     border: 2px solid black;
     padding:  15px 9px;
+    border-radius: 3px;
+    cursor: pointer;
 
     
 }
-
+#button:hover{
+    transition: border .1s ease-in;
+    border: 2px solid black;
+    padding:  17px 13px;
+}
+#button2{
+    border: 2px solid black;
+    padding:  15px 9px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#button2:hover{
+    transition: border .1s ease-in;
+    border: 2px solid black;
+    padding:  17px 13px;
+}
 form{
     position: relative;
-    left: 55em;
-    top: -6em;
-    font-size: 1.5em;
+    left: 50em;
+    top: -5.5em;
+    font-size: 1.7em;
+    
 }
-.agreements{
+{
+}
+/* .agreements{
     position: relative;
     left: 10px;
     top: 10px;
-}
+} */
 
 
 

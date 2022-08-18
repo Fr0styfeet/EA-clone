@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    color: inherit;
 }
 
 #nav1{
@@ -77,5 +78,7 @@ transition: .1s;
     position: relative;
     
 }
-
+nav ul li img{
+    height: 1.28em;
+}
 
