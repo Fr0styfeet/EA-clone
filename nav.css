@@ -10,6 +10,7 @@
     height: 3em;
     
 }
+
 #nav1 ul li{
     display: inline;
     padding: 12px 23px;
@@ -47,6 +48,7 @@ width: max-content;
 
 transition: .1s;
 }
+
 #nav2 ul li:hover > ul{
     display: block;
     /* position: absolute; */
@@ -58,10 +60,12 @@ transition: .1s;
     transition: .1s linear;
     
 }
+
 #nav2 li:hover{
     color: red;
     
 }
+
 #nav2 ul ul{
     position: absolute;
     top:110px;
@@ -72,12 +76,14 @@ transition: .1s;
     
 
 }
+
 #nav2 ul ul li{
     width: 190px;
     display: list-item;
     position: relative;
     
 }
+
 nav ul li img{
     height: 1.28em;
 }

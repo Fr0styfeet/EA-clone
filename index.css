@@ -39,22 +39,81 @@
    row-gap: 0px;
    column-gap: 0px;
    gap: 1.5rem;
-   padding-left: 100px;
-   padding-right: 100px;
+   padding-left: 4em;
+   padding-right: 4em;
 }
 
 .featuredgames img{
-    /* height: 20em;
-    width: 20em; */
-    /* border: 0.01px solid rgb(208, 208, 208); */
-  
+    position: relative;
+    left: 9em;
+    top: 15em;
+    height: 10em;
+    width: 10em;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter : opacity(2px);
+    transition: top .5s ease;
+}
+.featuredgames {
+    height: 60em;
+    backdrop-filter: blur(10px);
+    
+
+}
+.featuredgames div{
+    border: 0.01px solid rgb(208, 208, 208);
+    cursor: pointer;
+    
 }
 
 #F1{
     background-image: url("https://media.contentapi.ea.com/content/dam/gin/images/2022/07/eas-fifa22-gen5-ue-keyart-horz-f23logo-1x1.jpg.adapt.crop1x1.767p.jpg" );
     background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+
+#F2{
+    background-image: url(./Images/madden\ 23.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#F3{
+    background-image: url(./Images/f1\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
+}
+
+#F4{
+    background-image: url(./Images/battlefield.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+#F5{
+    background-image: url(./Images/apex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+#F6{
+    background-image: url(./Images/sims4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.featuredgames div img:hover{
+    position: relative;
+    top: 8em;
 }
 
 h1{
@@ -131,12 +190,8 @@ h1{
     width: 30em;
 }
 
-.articles div{
-    transition-property:  top ;
-    transition-delay: 0ms;
-    transition-timing-function: ease;
-    transition-duration: 7s;
-    cursor: pointer;
+.articles > div{
+    transition: top 3s ease;
 }
 
 .articles > div:hover{
@@ -338,6 +393,7 @@ form{
     font-size: 1.2em;
 
 }
+
 #agreements ul li{
     display: inline;
     padding-left: 3em;
