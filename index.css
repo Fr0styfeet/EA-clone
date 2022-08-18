@@ -114,7 +114,9 @@
 .featuredgames div img:hover{
     position: relative;
     top: 8em;
+    
 }
+
 
 h1{
     font-size: 2.5em;
